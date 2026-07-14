@@ -1,0 +1,102 @@
+# 📈 Stock Data Management System
+
+![Python](https://img.shields.io/badge/Python-3.14-blue) ![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688) ![React](https://img.shields.io/badge/React-Frontend-61DAFB) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-336791) ![License](https://img.shields.io/badge/License-MIT-yellow)
+
+A Full Stack Stock Data Management Web Application built using **FastAPI**, **React.js**, **PostgreSQL**, and **SQLAlchemy**.
+
+This application allows users to manage stock records with complete CRUD (Create, Read, Update, Delete) operations. Users can add, update, delete, search, and sort stock data through a modern, responsive, and user-friendly interface.
+
+---
+
+## 🚀 Features
+
+- ✅ Add Stock
+- ✅ Update Stock
+- ✅ Delete Stock
+- ✅ Search Stock
+- ✅ Sort Data
+- ✅ Responsive UI
+- ✅ FastAPI REST API
+- ✅ PostgreSQL Database
+- ✅ React Frontend
+- ✅ SQLAlchemy ORM
+
+---
+
+## 🛠 Tech Stack
+
+| Category | Technologies |
+|----------|--------------|
+| 🎨 Frontend | React.js, Axios, CSS |
+| ⚙️ Backend | FastAPI, SQLAlchemy, Pydantic |
+| 🗄️ Database | PostgreSQL |
+| 💻 Language | Python, JavaScript |
+| 🛠 Tools | VS Code, Git, GitHub |
+
+---
+
+## 📂 Project Structure
+
+```
+FAST API
+│
+├── frontend/
+│   ├── src/
+│   ├── public/
+│   └── package.json
+│
+├── main.py
+├── database.py
+├── database_models.py
+├── models.py
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## ⚙ Installation
+
+### Backend
+
+```bash
+pip install -r requirements.txt
+uvicorn main:app --reload
+```
+
+### Frontend
+
+```bash
+cd frontend
+npm install
+npm start
+```
+
+---
+
+## 📸 Project Preview
+
+### 🏠 Home Page
+
+![Home Page](images/home.png)
+
+---
+
+### 📖 FastAPI API Documentation
+
+![API Docs](images/api-docs.png)
+---
+
+
+
+## 👨‍💻 Author
+
+**Rajan Kumar**
+
+🎓 MCA Student
+
+💻 Passionate about Full Stack Web Development
+
+🚀 Built with FastAPI, React.js & PostgreSQL
+
+🌱 Currently learning Backend Development and AI
