@@ -15,11 +15,12 @@ This application allows users to manage stock records with complete CRUD (Create
 - ✅ Delete Stock
 - ✅ Search Stock
 - ✅ Sort Data
-- ✅ Responsive UI
-- ✅ FastAPI REST API
-- ✅ PostgreSQL Database
-- ✅ React Frontend
-- ✅ SQLAlchemy ORM
+
+- **GET /**: Welcome endpoint
+- **GET /products/**: Get all products
+- **GET /products/{product_id}**: Get a specific product by ID
+- **POST /products/**: Create a new product
+
 
 ---
 
