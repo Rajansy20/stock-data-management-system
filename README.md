@@ -61,8 +61,8 @@ FAST API
 
 1. **Create and activate virtual environment:**
    ```bash
-   python -m venv myenv
-   myenv\Scripts\activate.ps1  # Windows PowerShell
+   python -m venv project
+   project\Scripts\activate.ps1  # Windows PowerShell
    ```
 
 2. **Install dependencies:**
