@@ -59,10 +59,21 @@ FAST API
 
 ### Backend
 
-```bash
-pip install -r requirements.txt
-uvicorn main:app --reload
-```
+1. **Create and activate virtual environment:**
+   ```bash
+   python -m venv myenv
+   myenv\Scripts\activate.ps1  # Windows PowerShell
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   pip install fastapi uvicorn
+   ```
+
+3. **Run the application:**
+   ```bash
+   uvicorn main:app --reload
+   ```
 
 ### Frontend
 
