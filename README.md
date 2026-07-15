@@ -61,8 +61,8 @@ FAST API
 
 1. **Create and activate virtual environment:**
    ```bash
-   python -m venv project
-   project\Scripts\activate.ps1  # Windows PowerShell
+   python -m venv myenv
+   myenv\Scripts\activate.ps1  # Windows PowerShell
    ```
 
 2. **Install dependencies:**
@@ -73,12 +73,14 @@ FAST API
 3. **Run the application:**
    ```bash
    uvicorn main:app --reload
+   ```
 
-   4. **Access the API:**
+4. **Access the API:**
    - API: http://localhost:8000
    - Interactive docs: http://localhost:8000/docs
    - ReDoc: http://localhost:8000/redoc
-   ```
+
+
 ---
 
 ### Frontend
