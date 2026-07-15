@@ -73,7 +73,13 @@ FAST API
 3. **Run the application:**
    ```bash
    uvicorn main:app --reload
+
+   4. **Access the API:**
+   - API: http://localhost:8000
+   - Interactive docs: http://localhost:8000/docs
+   - ReDoc: http://localhost:8000/redoc
    ```
+---
 
 ### Frontend
 
